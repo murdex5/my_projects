@@ -32,7 +32,7 @@ const validateCred = (arr) => {
   let arrReversed = arr.reverse();
   let checkOdd = arrReversed.filter(function(el, ind){ return ind % 2 === 0; });
   let unCheckOdd = arrReversed.filter(function(el, ind){ return ind % 2 === 1; })
-  let multiplyOdd = checkOdd.map(x =>x * 2);
+  let multiplyOdd = checkOdd.map(x => x * 2);
   let substractedNum = [];
   let unSubstractedNum = [];
   for (let i = 0; i < multiplyOdd.length; i++) {
